@@ -29,7 +29,7 @@ Object.keys(helmet).forEach(function (method) {
  * @return {Function}
  */
 function rillToExpress (middleware) {
-  return function (ctx, next) {
+  return function helmetMiddleware (ctx, next) {
     return new Promise(function (resolve, reject) {
       middleware(ctx.req.original, ctx.res.original, function (err) {
         if (err) reject(err)
