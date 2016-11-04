@@ -1,7 +1,7 @@
 {
   "name": "@rill/helmet",
   "description": "Collection of middleware to implement various security headers for Rill.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "Dylan Piercey <pierceydylan@gmail.com>",
   "browser": "client/index.js",
   "bugs": "https://github.com/rill-js/helmet/issues",
