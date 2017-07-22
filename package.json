@@ -6,7 +6,7 @@
   "browser": "client/index.js",
   "bugs": "https://github.com/rill-js/helmet/issues",
   "dependencies": {
-    "helmet": "^3.6.1"
+    "helmet": "^3.8.0"
   },
   "devDependencies": {
     "mocha": "^3.1.2",
