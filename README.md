@@ -57,23 +57,24 @@ app.use(helmet.frameguard())
 
 ## How it works
 
-Helmet is a collection of 11 smaller middleware functions that set HTTP headers. Running `app.use(helmet())` will not include all of these middleware functions by default.
+Helmet is a collection of 12 smaller middleware functions that set HTTP headers. Running `app.use(helmet())` will not include all of these middleware functions by default.
 
 | Module | Default? |
 |---|---|
-| [contentSecurityPolicy](https://github.com/helmetjs/csp) for setting Content Security Policy |  |
-| [dnsPrefetchControl](https://github.com/helmetjs/dns-prefetch-control) controls browser DNS prefetching | ✓ |
-| [frameguard](https://github.com/helmetjs/frameguard) to prevent clickjacking | ✓ |
-| [hidePoweredBy](https://github.com/helmetjs/hide-powered-by) to remove the X-Powered-By header | ✓ |
-| [hpkp](https://github.com/helmetjs/hpkp) for HTTP Public Key Pinning |  |
-| [hsts](https://github.com/helmetjs/hsts) for HTTP Strict Transport Security | ✓ |
-| [ieNoOpen](https://github.com/helmetjs/ienoopen) sets X-Download-Options for IE8+ | ✓ |
-| [noCache](https://github.com/helmetjs/nocache) to disable client-side caching |  |
-| [noSniff](https://github.com/helmetjs/dont-sniff-mimetype) to keep clients from sniffing the MIME type | ✓ |
-| [referrerPolicy](https://github.com/helmetjs/referrer-policy) to hide the Referer header |  |
-| [xssFilter](https://github.com/helmetjs/x-xss-protection) adds some small XSS protections | ✓ |
+| [contentSecurityPolicy](https://helmetjs.github.io/docs/csp/) for setting Content Security Policy |  |
+| [expectCt](https://helmetjs.github.io/docs/expect-ct/) for handling Certificate Transparency |  |
+| [dnsPrefetchControl](https://helmetjs.github.io/docs/dns-prefetch-control) controls browser DNS prefetching | ✓ |
+| [frameguard](https://helmetjs.github.io/docs/frameguard/) to prevent clickjacking | ✓ |
+| [hidePoweredBy](https://helmetjs.github.io/docs/hide-powered-by) to remove the X-Powered-By header | ✓ |
+| [hpkp](https://helmetjs.github.io/docs/hpkp/) for HTTP Public Key Pinning |  |
+| [hsts](https://helmetjs.github.io/docs/hsts/) for HTTP Strict Transport Security | ✓ |
+| [ieNoOpen](https://helmetjs.github.io/docs/ienoopen) sets X-Download-Options for IE8+ | ✓ |
+| [noCache](https://helmetjs.github.io/docs/nocache/) to disable client-side caching |  |
+| [noSniff](https://helmetjs.github.io/docs/dont-sniff-mimetype) to keep clients from sniffing the MIME type | ✓ |
+| [referrerPolicy](https://helmetjs.github.io/docs/referrer-policy) to hide the Referer header |  |
+| [xssFilter](https://helmetjs.github.io/docs/xss-filter) adds some small XSS protections | ✓ |
 
-For a more in depth guide on how to use @rill/helmet check out the official guide for helmet [here](https://github.com/helmetjs/helmet#user-content-usage-guide).
+For a more in depth guide on how to use @rill/helmet, check out the [official Helmet documentation](https://helmetjs.github.io/docs/).
 
 ### Contributions
 
