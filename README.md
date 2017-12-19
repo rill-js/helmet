@@ -27,7 +27,7 @@
   </a>
 </h1>
 
-A wrapper for [helmet]() that works with Rill.
+A wrapper for [Helmet](https://helmetjs.github.io/) that works with Rill.
 
 Helmet helps you secure your app by setting various HTTP headers.
 
